@@ -1,2 +1,2 @@
-# spring-cloud-starter
-Spring cloud base project with detailed documentation
+# Spring cloud training
+Homework of "Spring cloud" courses.
