@@ -1,3 +1,10 @@
 ---
 server:
-  port: 8010
+  port: ${PORT:${SERVER_PORT:0}}
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+
+words: a,the
