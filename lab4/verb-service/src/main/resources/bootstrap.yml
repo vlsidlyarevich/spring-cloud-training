@@ -1,4 +1,4 @@
 ---
 spring:
   application:
-    name: subject-service
+    name: verb-service
