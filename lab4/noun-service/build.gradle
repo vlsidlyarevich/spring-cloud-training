@@ -35,6 +35,7 @@ repositories {
 dependencies {
     //Spring cloud dependencies
     compile("org.springframework.cloud:spring-cloud-starter-eureka-server")
+    compile("org.springframework.cloud:spring-cloud-starter-config")
 
     //Devtools
     compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
