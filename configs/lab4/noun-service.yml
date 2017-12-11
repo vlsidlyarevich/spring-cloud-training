@@ -1,0 +1,4 @@
+---
+spring:
+  profiles: noun
+words: boat,book,vote,seat,backpack,partition,groundhog
