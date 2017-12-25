@@ -1,0 +1,50 @@
+buildscript {
+    ext {
+        springBootVersion = '1.5.6.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: "idea"
+apply plugin: "eclipse"
+apply plugin: 'spring-boot'
+apply plugin: "io.spring.dependency-management"
+
+group = 'com.github.vlsidlyarevich'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Edgware.RELEASE'
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven { url "https://repo.spring.io/libs-release" }
+    maven { url "https://repo.spring.io/libs-snapshot" }
+}
+
+dependencies {
+    //Spring cloud dependencies
+    compile("org.springframework.cloud:spring-cloud-starter-eureka-server")
+    compile("org.springframework.cloud:spring-cloud-starter-config")
+    compile("org.springframework.cloud:spring-cloud-starter-ribbon")
+
+    //Devtools
+    compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
+    runtime("org.springframework.boot:spring-boot-devtools:${springBootVersion}")
+
+    //Lombok
+    compileOnly("org.projectlombok:lombok:${lombokVersion}")
+
+    //Test section
+    testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
+}
