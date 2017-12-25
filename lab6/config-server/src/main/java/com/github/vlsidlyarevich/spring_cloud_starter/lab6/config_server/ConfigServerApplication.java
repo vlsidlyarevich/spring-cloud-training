@@ -1,4 +1,4 @@
-package com.github.vlsidlyarevich.spring_cloud_starter.lab5.config_server;
+package com.github.vlsidlyarevich.spring_cloud_starter.lab6.config_server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

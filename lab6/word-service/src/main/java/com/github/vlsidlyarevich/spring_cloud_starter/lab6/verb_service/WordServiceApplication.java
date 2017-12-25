@@ -1,4 +1,4 @@
-package com.github.vlsidlyarevich.spring_cloud_starter.lab5.sentence_service;
+package com.github.vlsidlyarevich.spring_cloud_starter.lab6.verb_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class SentenceServiceApplication {
+public class WordServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SentenceServiceApplication.class, args);
+        SpringApplication.run(WordServiceApplication.class, args);
     }
 }

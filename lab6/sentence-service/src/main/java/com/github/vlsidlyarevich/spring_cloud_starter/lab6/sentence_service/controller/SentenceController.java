@@ -1,4 +1,4 @@
-package com.github.vlsidlyarevich.spring_cloud_starter.lab5.sentence_service.controller;
+package com.github.vlsidlyarevich.spring_cloud_starter.lab6.sentence_service.controller;
 
 import com.github.vlsidlyarevich.spring_cloud_starter.lab5.sentence_service.service.SentenceService;
 import lombok.AllArgsConstructor;

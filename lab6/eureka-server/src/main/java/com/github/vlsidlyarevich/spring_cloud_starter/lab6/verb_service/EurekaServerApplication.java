@@ -1,4 +1,4 @@
-package com.github.vlsidlyarevich.spring_cloud_starter.lab5.verb_service;
+package com.github.vlsidlyarevich.spring_cloud_starter.lab6.verb_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

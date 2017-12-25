@@ -1,4 +1,4 @@
-package com.github.vlsidlyarevich.spring_cloud_starter.lab5.verb_service.controller;
+package com.github.vlsidlyarevich.spring_cloud_starter.lab6.verb_service.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
