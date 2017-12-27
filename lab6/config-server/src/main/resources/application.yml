@@ -8,4 +8,4 @@ spring:
       server:
         git:
           uri: https://github.com/vlsidlyarevich/spring-cloud-training
-          search-paths: configs/lab5
+          search-paths: configs/lab6
