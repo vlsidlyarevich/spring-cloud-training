@@ -16,3 +16,10 @@ Homework of "Spring cloud" courses.
 * Config server to send common configs and profile-specific configs
 * Services to create a sentence which consists of noun, cold-noun (which uses the same name as noun but with another content), article, adjective, subject, verb
 * Sentence service which calls another service for sentence parts (with configured Ribbon to use both noun services)
+
+### Lab 6
+* Eureka server
+* Config server to send common configs and profile-specific configs
+* Services to create a sentence which consists of noun, cold-noun (which uses the same name as noun but with another content), article, adjective, subject, verb
+* Sentence service which calls another service for sentence parts through Feign
+* Ribbon load balancing is implemented with Feign internally
