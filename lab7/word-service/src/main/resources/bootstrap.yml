@@ -1,0 +1,51 @@
+---
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8001
+
+eureka:
+  instance:
+    instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+---
+spring:
+  profiles: sentence
+  application:
+    name: sentence-service
+
+---
+spring:
+  profiles: subject
+  application:
+    name: subject-service
+
+---
+spring:
+  profiles: verb
+  application:
+    name: verb-service
+
+---
+spring:
+  profiles: article
+  application:
+    name: article-service
+
+---
+spring:
+  profiles: adjective
+  application:
+    name: adjective-service
+
+---
+spring:
+  profiles: noun
+  application:
+    name: noun-service
+
+---
+spring:
+  profiles: cold-noun
+  application:
+    name: noun-service
