@@ -2,5 +2,5 @@ package com.github.vlsidlyarevich.spring_cloud_starter.lab7.sentence_service.ser
 
 public interface SentenceService {
 
-    String getWord();
+    String getSentence();
 }

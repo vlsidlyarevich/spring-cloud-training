@@ -36,13 +36,13 @@ dependencies {
     //Spring cloud dependencies
     compile("org.springframework.cloud:spring-cloud-starter-eureka-server")
 
-    //Devtools
+    //Devtools dependencies
     compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
     runtime("org.springframework.boot:spring-boot-devtools:${springBootVersion}")
 
-    //Lombok
+    //Lombok dependencies
     compileOnly("org.projectlombok:lombok:${lombokVersion}")
 
-    //Test section
+    //Test dependencies
     testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
 }

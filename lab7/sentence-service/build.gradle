@@ -38,14 +38,15 @@ dependencies {
     compile("org.springframework.cloud:spring-cloud-starter-config")
     compile("org.springframework.cloud:spring-cloud-starter-ribbon")
     compile("org.springframework.cloud:spring-cloud-starter-feign")
+    compile("org.springframework.cloud:spring-cloud-starter-hystrix")
 
-    //Devtools
+    //Devtools dependencies
     compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
     runtime("org.springframework.boot:spring-boot-devtools:${springBootVersion}")
 
-    //Lombok
+    //Lombok dependencies
     compileOnly("org.projectlombok:lombok:${lombokVersion}")
 
-    //Test section
+    //Test dependencies
     testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
 }

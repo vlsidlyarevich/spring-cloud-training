@@ -1,6 +1,6 @@
 package com.github.vlsidlyarevich.spring_cloud_starter.lab7.sentence_service.controller;
 
-import com.github.vlsidlyarevich.spring_cloud_starter.lab6.sentence_service.service.SentenceService;
+import com.github.vlsidlyarevich.spring_cloud_starter.lab7.sentence_service.service.SentenceService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +15,6 @@ public class SentenceController {
 
     @GetMapping("/sentence")
     public ResponseEntity getSentence() {
-        return ResponseEntity.ok().body(sentenceService.getWord());
+        return ResponseEntity.ok().body(sentenceService.getSentence());
     }
 }
