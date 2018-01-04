@@ -31,4 +31,4 @@ Homework of "Spring cloud" courses.
 * Sentence service which calls another service for sentence parts through Feign
 * Ribbon load balancing is implemented with Feign internally
 * Hystrix is provided with fallback methods 
-* Turbine is available for Hystrix states monitoring
+* Hystrix dashboard is available for Hystrix states monitoring
