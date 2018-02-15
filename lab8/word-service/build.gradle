@@ -36,7 +36,7 @@ dependencies {
     //Spring cloud dependencies
     compile("org.springframework.cloud:spring-cloud-starter-eureka-server")
     compile("org.springframework.cloud:spring-cloud-starter-config")
-//    compile("org.springframework.cloud:spring-cloud-starter-bus-amqp")
+    compile("org.springframework.cloud:spring-cloud-starter-bus-amqp")
 
     //Web dependencies
     compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
