@@ -27,7 +27,7 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 ---
 spring:
   profiles: noun
-words: rifle
+words: carabine
 
 ---
 spring:
